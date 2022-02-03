@@ -9,7 +9,7 @@ var names = ['ragim', 'rahim', 'korim', 'jahum', ' kabul', ]
 
 // Array count 
 var numberCount = names.length;
-// console.log(numberCount);
+console.log(numberCount);
 
 // indexOf 
 var numbers = [43, 54, 66, 32, 65, 87]; //( indexNumber start will 0 )
