@@ -8,7 +8,7 @@ while (moneyGiven < 10) {
 
 var num = 1; // loop variable
 while (num <= 10) {
-    // console.log(num);
+    console.log(num);
     num++;
 }
 
@@ -22,6 +22,6 @@ while (num <= 20) {
 /* even Number */
 var number = 0; // loop variable
 while (number <= 20) {
-    // console.log(number);
+    console.log(number);
     number = number + 2;
 }
