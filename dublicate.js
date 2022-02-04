@@ -5,7 +5,6 @@ function removeDuplicate(manNames) {
     const unique = [];
     // for (let i = 0; i < manNames.length; i++) {
     //     const element = manNames[i];
-    //     console.log(element);
     // }
     for (const element of manNames) {
         if (unique.indexOf(element) == -1) {
@@ -15,7 +14,7 @@ function removeDuplicate(manNames) {
     return unique;
 }
 const uniqueNames = removeDuplicate(manNames);
-console.log(uniqueNames);
+// console.log(uniqueNames);
 
 
 /* Find out Dublicate Number */
@@ -31,4 +30,20 @@ function removeDuplicateNumber(numbers) {
     return uniqueNum;
 }
 const uniqueNum = removeDuplicateNumber(numbers);
-console.log(uniqueNum);
+// console.log(uniqueNum);
+
+/* Find out Duplicate Name in Array */
+const findDuplicate = ['hilim', 'jamil', 'kader', 'sogir', 'hasem', 'kasem', 'hilim', 'sogir', 'shapon', 'ripon', 'hasem', 'kader', 'sogir'];
+
+function removeDuplicateName(findDuplicate) {
+    const pickName = [];
+    for (const element of findDuplicate) {
+        if (pickName.indexOf(element) == -1) {
+            pickName.push(element);
+        }
+    }
+    return pickName;
+}
+
+const pickName = removeDuplicateName(findDuplicate);
+console.log(pickName);
